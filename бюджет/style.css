@@ -1,0 +1,143 @@
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 16px;
+	box-sizing: border-box;
+}
+
+.columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+.columnOne {
+	width: 45%;
+}
+
+.formOne {
+	border: 2px solid green;
+	border-radius: 5px;
+	padding: 15px 25px;
+	margin-bottom: 60px;
+	background-color: rgb(236, 253, 243);
+}
+
+.text {
+	margin: 8px 0;
+	text-transform: capitalize;
+}
+
+#ftext {
+	width: 100%;
+	padding-top: 15px;
+	border-radius: 5px;
+	border: 1px solid green;
+	font-size: 20px;
+}
+
+#calc {
+	margin-top: 20px;
+	height: 30px;
+	width: 80px;
+	border: 1px solid green;
+	border-radius: 5px;
+	text-align: center;
+	color: green;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+.formTwo {
+	border: 2px solid red;
+	border-radius: 5px;
+	padding: 15px 25px;
+	background-color: rgb(255, 238, 238);
+}
+
+#stext,
+#ttext {
+	width: 100%;
+	padding-top: 15px;
+	border-radius: 5px;
+	border: 1px solid red;
+	font-size: 20px;
+}
+
+#add {
+	margin-top: 20px;
+	height: 30px;
+	width: 100px;
+	border: 1px solid red;
+	border-radius: 5px;
+	text-align: center;
+	color: red;
+	padding-top: 10px;
+	cursor: pointer;
+	
+}
+
+.columnTwo {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.first,
+.second,
+.third {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+.count {
+	display: inline-block;
+}
+
+#budgetCount,
+#noteGreen {
+	color: green;
+}
+
+#expensesCount,
+#noteRed {
+	color: red;
+}
+
+#balanceCount,
+#noteBlack {
+	color: black;
+}
+
+.fourthTitle,
+.fourthValue {
+	font-size: 20px;
+	margin-right: 40px;
+}
+
+.error{
+	width: 350px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 30px;	
+}
+
+.noterr{
+	width: 350px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 30px;
+}

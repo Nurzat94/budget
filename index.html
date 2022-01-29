@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>BudgetApp</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>Budget App</h1>
+		<div class="columns">
+			<div class="columnOne">
+				<form action="" class="formOne">
+					<p class="text">Please enter your budget</p>
+					<input type="text" id="ftext"> <br>
+					<div id="calc">Calculate</div>
+				</form>
+
+				<form action="" class="formTwo">
+					<p class="text">Please enter you expense</p>
+					<input type="text" id="stext"> <br>
+					<p class="text">Please enter expense amount</p>
+					<input type="text" id="ttext"> <br>
+					<div id="add">Add Expense</div>
+				</form>
+			</div>
+			<div class="columnTwo">
+				<div class="first">
+					<div id="budget">Budget</div>
+					<div class="count" id="noteGreen">$</div>
+					<div class="count" id="budgetCount">0</div>
+				</div>
+				<div class="second">
+					<div id="expenses">Expenses</div>
+					<div class="count" id="noteRed">$</div>
+					<div class="count" id="expensesCount">0</div>
+				</div>
+				<div class="third">
+					<div id="balance">Balance</div>
+					<div class="count" id="noteBlack">$</div>
+					<div class="count" id="balanceCount">0</div>
+				</div>
+				<div class="fourthTitle">
+					<p>Expense Title</p>
+					<div id="fourthTitle"></div>
+				</div>
+				<div class="fourthValue">
+					<p>Expense Value</p>
+					<div id="fourthValue"></div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div id="err">
+	</div>
+</body>
+
+<script src="script.js" defer></script>
+
+</html>
